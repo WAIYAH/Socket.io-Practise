@@ -23,8 +23,7 @@ socketio-project/ ├── client/ # React frontend (Vite) ├── server/ # 
 
    node server.js
 
-
-   Client
+## Client
 Navigate to the client directory:
 
 cd client
@@ -37,7 +36,7 @@ pnpm dev
 
 The client runs on http://localhost:5173.
 
-Usage
+## Usage
 Open http://localhost:5173 in multiple browser tabs.
 Enter a username and room name to join a chat room.
 Send messages and see real-time updates in the same room.
@@ -48,7 +47,7 @@ Join chat rooms
 Send and receive messages in real-time
 User join/leave notifications
 
-Technologies
+## Technologies
 Backend: Node.js, Express, Socket.IO
 Frontend: React, Vite, Socket.IO-client
 
@@ -57,5 +56,4 @@ Package Manager: pnpm
 Next Steps
 Add MongoDB for persistent chat history
 Implement user authentication
-
 Enhance UI with Tailwind CSS or Material-UI
